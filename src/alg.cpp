@@ -7,10 +7,8 @@ int cbinsearch(int *arr, int size, int value) {
       cntr += 1;
     }
   }
-  if (cntr > 0) {
+  if (cntr > 0)
     return cntr;
-  }
-  else {
+  else
     return 0;
-  }
 }
